@@ -45,7 +45,6 @@ body{
 
         color:white;
 
-
         background: rgba(20, 20, 30, 0.55);
         backdrop-filter: blur(30px);
         -webkit-backdrop-filter: blur(15px);
@@ -111,3 +110,4 @@ body{
         background:#EA4335;
 
     }
+
