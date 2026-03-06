@@ -41,7 +41,7 @@ body{
         border-radius:20px;
 
         width:90%;
-        max-width:400px;
+        max-width:420px;
 
         color:white;
 
@@ -109,4 +109,5 @@ body{
 
     .mail{
         background:#EA4335;
+
     }
