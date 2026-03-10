@@ -1,46 +1,32 @@
-/* RESET */
 
-*{
+{
     box-sizing:border-box;
 }
 
 body{
     margin:0;
     font-family:Arial, sans-serif;
-
     background-image:url("download.jpg");
     background-size:cover;
     background-position:center;
-
     min-height:100vh;
-
     display:flex;
     justify-content:center;
     align-items:center;
-
     padding:20px;
 }
-
-
-/* BLUR BACKGROUND */
 
 body::before{
     content:"";
     position:fixed;
     inset:0;
-
     background-image:url("download.jpg");
     background-size:cover;
     background-position:center;
-
     filter:blur(6px);
     transform:scale(1.1);
-
     z-index:-1;
 }
-
-
-/* CONTAINER */
 
 .container{
     width:100%;
@@ -48,47 +34,27 @@ body::before{
     justify-content:center;
 }
 
-
-/* CARD */
-
 .card{
-
     width:100%;
     max-width:420px;
-
     padding:clamp(20px,4vw,40px);
-
     border-radius:20px;
-
     color:white;
     text-align:center;
-
     background:rgba(20,20,30,0.55);
-
     backdrop-filter:blur(25px);
     -webkit-backdrop-filter:blur(25px);
-
     border:1px solid rgba(255,255,255,0.15);
-
     box-shadow:0 10px 40px rgba(0,0,0,0.4);
 }
 
-
-/* PROFILE IMAGE */
-
 .profile{
-
     width:clamp(65px,18vw,90px);
     height:clamp(65px,18vw,90px);
-
     border-radius:50%;
     object-fit:cover;
-
     margin-bottom:12px;
 }
-
-
-/* TEXT */
 
 h1{
     font-size:clamp(18px,4vw,28px);
@@ -107,52 +73,32 @@ p{
     opacity:0.7;
 }
 
-
-/* BUTTON AREA */
-
 .buttons{
-
     margin-top:20px;
-
     display:flex;
     justify-content:center;
     align-items:center;
-
     gap:clamp(12px,4vw,20px);
     flex-wrap:wrap;
 }
 
-
-/* BUTTON */
-
 .btn{
-
     width:clamp(40px,12vw,55px);
     height:clamp(40px,12vw,55px);
-
     border-radius:50%;
-
     display:flex;
     align-items:center;
     justify-content:center;
-
     transition:0.25s;
 }
-
 
 .btn img{
     width:clamp(18px,5vw,26px);
 }
 
-
-/* HOVER EFFECT */
-
 .btn:hover{
     transform:scale(1.1);
 }
-
-
-/* COLORS */
 
 .discord{
     background:#5865F2;
@@ -165,3 +111,4 @@ p{
 .mail{
     background:#EA4335;
 }
+
