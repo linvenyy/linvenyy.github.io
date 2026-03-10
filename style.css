@@ -93,7 +93,8 @@ p{
 }
 
 .btn img{
-    width:clamp(18px,5vw,26px);
+    width:24px;
+    height:24px;
 }
 
 .btn:hover{
@@ -111,4 +112,5 @@ p{
 .mail{
     background:#EA4335;
 }
+
 
